@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    
+    <TextView 
+        android:id="@+id/rank_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ranking"
+        android:textSize="30sp"
+        android:textColor="#33aaee"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        >
+        
+        <TextView 
+            android:id="@+id/left_title"
+            android:layout_width="dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="NAME"
+            android:textColor="#33aaee"
+            android:textSize="20sp"
+            />
+        
+        <TextView 
+            android:id="@+id/right_title"
+            android:layout_width="dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ATTEMPTS"
+            android:textColor="#33aaee"
+            android:textSize="20sp"
+            />
+        
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/rank_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+</LinearLayout>
